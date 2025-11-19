@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darmajaya Student Portal | Input Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Mahasiswa Connect</div>
+            <nav>
+                <a href="index.html">Beranda</a>
+                <a href="login/login.html">Login Mahasiswa</a>
+                <a href="login/admin_login.html">Login Admin</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="title">Input Data Mahasiswa Baru</div>
+        <div class="subtitle">Silakan masukkan data Anda untuk mendapatkan NPM dan akses Siakad.</div>
+        <div class="form-container">
+            <form id="formMahasiswa">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" placeholder="Masukkan nama" required>
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                <input type="date" id="tanggal_lahir" required> 
+                <label for="jurusan">Jurusan:</label>
+                <select id="jurusan" required>
+                    <option value="">-- Pilih Jurusan --</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Manajemen Informatika">Manajemen Informatika</option>
+                    <option value="Akuntansi">Akuntansi</option>
+                    <option value="Manajemen">Manajemen</option>
+                </select>
+                <button type="submit">Daftarkan Data</button>
+            </form>
+        </div>
+
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
